@@ -1,0 +1,21 @@
+{
+    "name": "jtet/miniconfig",
+    "description": "Simple configuration file loader for PHP in 20 lines of code.",
+    "homepage": "https://github.com/jtet/MiniConfig",
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "keywords": ["config", "yaml", "ini"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "jtet",
+            "email": "jtet.github@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
